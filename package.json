@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/nerdgrass/react-testing-comparison/issues"
   },
-  "homepage": "https://github.com/nerdgrass/react-testing-comparison#readme"
+  "homepage": "https://github.com/nerdgrass/react-testing-comparison#readme",
+  "devDependencies": {
+    "babel": "^6.3.26",
+    "babel-core": "^6.4.0",
+    "babel-loader": "^6.2.1",
+    "webpack": "^1.12.11",
+    "webpack-dev-server": "^1.14.1"
+  }
 }
