@@ -4,7 +4,8 @@
   "description": "A React & Flux example that compare and contrast various types of testing",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config webpack.run.config.babel.js"
   },
   "repository": {
     "type": "git",
