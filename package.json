@@ -1,0 +1,19 @@
+{
+  "name": "react-testing-comparison",
+  "version": "0.0.1",
+  "description": "A React & Flux example that compare and contrast various types of testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nerdgrass/react-testing-comparison.git"
+  },
+  "author": "Alex Boerstler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nerdgrass/react-testing-comparison/issues"
+  },
+  "homepage": "https://github.com/nerdgrass/react-testing-comparison#readme"
+}
