@@ -1,5 +1,7 @@
 import React from 'react';
 
+import TodoStore from '../stores/todo-store'
+
 // Retrieve the current TODO data from the TodoStore
 function getTodoState() {
   return {
@@ -21,7 +23,7 @@ export default class TodoApp extends React.Component {
     //TodoStore.removeChangeListener(this._onChange);
   }
   // Event handler for 'change' events coming from the TodoStore
-  onChange = () => {
+  onChange() {
     this.setState(getTodoState());
   }
   render() {
